@@ -10,8 +10,6 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 Make sure to restart your terminal afterwards to ensure that the uv command gets picked up.
 Now, let’s create and set up our project:
 
-Windows
-
 Create a new directory for our project
 uv init weather
 cd weather
@@ -26,4 +24,4 @@ uv add mcp[cli] httpx
 Create our server file
 new-item weather.py
 
-In the terminal: Run uv run weather.py to start the MCP server, which will listen for messages from MCP hosts.
+In the terminal: Run uv run weather.py to start the MCP server, which will listen for messages from MCP hosts OR run this in the terminal python news.py before you launch claude desktop. 
