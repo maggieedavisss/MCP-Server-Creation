@@ -12,19 +12,18 @@ Now, let’s create and set up our project:
 
 Windows
 
-Copy
-# Create a new directory for our project
+Create a new directory for our project
 uv init weather
 cd weather
 
-# Create virtual environment and activate it
+Create virtual environment and activate it
 uv venv
 .venv\Scripts\activate
 
-# Install dependencies
+Install dependencies
 uv add mcp[cli] httpx
 
-# Create our server file
+Create our server file
 new-item weather.py
 
 In the terminal: Run uv run weather.py to start the MCP server, which will listen for messages from MCP hosts.
