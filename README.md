@@ -4,13 +4,14 @@
 For the config.josn: you must find where claude desktop was downloaded on your computer: users/maggie/AppData/Roaming/Claude/claude_desktop_config.json
 
 ## Setting up virtual environment for MCP
+
 ### Set up your environment
 First, let’s install uv and set up our Python project and environment:
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 Make sure to restart your terminal afterwards to ensure that the uv command gets picked up.
 
-## Now, let’s create and set up our project:
+### Now, let’s create and set up our project:
 
 Create a new directory for our project
 uv init weather
