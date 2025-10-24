@@ -1,0 +1,22 @@
+{
+    "mcpServers": {
+      "weather": {
+        "command": "uv",
+        "args": [
+          "--directory",
+          "C:\\Users\\magdav01\\weather", 
+          "run",
+          "weather.py"
+        ]
+      },
+      "news": {
+        "command": "uv",
+        "args": [
+          "--directory",
+          "C:\\Users\\magdav01\\news", 
+          "run",
+          "news.py"  
+        ]
+      }
+    }
+  }
